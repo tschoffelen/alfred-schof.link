@@ -1,0 +1,31 @@
+{
+  "name": "alfred-schof-link",
+  "version": "0.0.0",
+  "description": "Upload clipboard to schof.link",
+  "license": "MIT",
+  "type": "module",
+  "repository": "tschoffelen/alfred-schof-link",
+  "author": "Thomas Schoffelen",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow"
+  ],
+  "dependencies": {
+    "alfy": "^1.1.0",
+    "axios": "^1.4.0",
+    "execa": "^7.1.1"
+  },
+  "packageManager": "yarn@3.6.1"
+}
